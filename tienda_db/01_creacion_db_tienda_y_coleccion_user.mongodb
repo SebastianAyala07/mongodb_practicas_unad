@@ -1,0 +1,104 @@
+use("tienda")
+
+db.usuarios.insertMany(
+    [
+        {
+            name: 'Sebastian Ayala',
+            email: 'sayalag@unadvirtual.edu.co',
+            birth_date: new Date('2002/04/01'),
+            user_type: 'empleado',
+            job_position: 'gerente',
+            phone: '3508766755',
+            address: 'Carrera 22 Sur #152-75',
+            city_id: 73001,
+            salary: 25000000
+        },
+        {
+            name: 'Alix Mendoza Gonzalez',
+            email: 'amendoza@gmail.com',
+            birth_date: new Date('1980/12/01'),
+            user_type: 'empleado',
+            job_position: 'supervisor de tienda',
+            phone: '3508112312',
+            address: 'Carrera 43 Norte #43-44',
+            city_id: 73001,
+            salary: 4500000
+        },
+        {
+            name: 'Fernando Alvarez',
+            email: 'falvarez@gmail.com',
+            birth_date: new Date('1970/11/01'),
+            user_type: 'cliente',
+            phone: '3508122312',
+            address: 'Cra 11 Norte #43-44',
+            city_id: 73001
+        },
+        {
+            name: 'Jesus Gonzalez',
+            email: 'jgonzalez@gmail.com',
+            birth_date: new Date('1998/09/12'),
+            user_type: 'cliente',
+            phone: '3508122112',
+            address: 'Cra 51 Norte #43-44',
+            city_id: 73001
+        },
+        {
+            name: 'Felipe Gomez',
+            email: 'gomezfelipe@gmail.com',
+            birth_date: new Date('1994/10/25'),
+            user_type: 'cliente',
+            phone: '3508122312',
+            address: 'Cra 11 Norte #43-44',
+            city_id: 73001
+        },
+        {
+            name: "Ana Gómez",
+            email: "anagomez@gmail.com",
+            birth_date: new Date("1995/07/10"),
+            user_type: "cliente",
+            phone: "3105551212",
+            address: "Calle 34 # 23-45",
+            city_id: 73001
+        },
+        {
+            name: "Pedro Castro",
+            email: "pedrocastro@gmail.com",
+            birth_date: new Date("1988/11/25"),
+            user_type: "empleado",
+            job_position: "vendedor",
+            phone: "3105551234",
+            address: "Calle 22 # 15-12",
+            city_id: 73001,
+            salary: 3500000
+        },
+        {
+            name: "Lina Ortiz",
+            email: "linaortiz@gmail.com",
+            birth_date: new Date("1999/04/15"),
+            user_type: "cliente",
+            phone: "3105554321",
+            address: "Calle 54 # 12-34",
+            city_id: 73001
+        },
+        {
+            name: "Carlos Gómez",
+            email: "carlosgomez@gmail.com",
+            birth_date: new Date("1990/08/01"),
+            user_type: "cliente",
+            phone: "3105557890",
+            address: "Calle 15 # 32-56",
+            city_id: 73001
+        },
+        {
+            name: "María Pérez",
+            email: "mariaperez@gmail.com",
+            birth_date: new Date("1996/12/08"),
+            user_type: "empleado",
+            job_position: "administrador",
+            phone: "3105552468",
+            address: "Calle 19 # 29-12",
+            city_id: 73001,
+            salary: 4500000
+        }        
+    ]
+)

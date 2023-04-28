@@ -1,0 +1,56 @@
+use("tienda")
+
+db.productos.insertMany(
+    [
+        {
+            name: "Camisa Polo",
+            description: "Camisa polo de algodón para hombre",
+            category: "Ropa",
+            price: 35000,
+            stock: 50
+        },
+        {
+            name: "Zapatos de Cuero",
+            description: "Zapatos de cuero para mujer",
+            category: "Zapatos",
+            price: 120000,
+            stock: 20
+        },
+        {
+            name: "Gafas de Sol",
+            description: "Gafas de sol con lentes polarizados",
+            category: "Accesorios",
+            price: 70000,
+            stock: 100
+        },
+        {
+            name: "Mochila",
+            description: "Mochila para laptop de 15 pulgadas",
+            category: "Bolsos",
+            price: 95000,
+            stock: 30
+        },
+        {
+            name: "Pantalón de Vestir",
+            description: "Pantalón de vestir para hombre",
+            category: "Ropa",
+            price: 75000,
+            stock: 40
+        },
+        {
+            name: "Reloj de Pulsera",
+            description: "Reloj de pulsera analógico para mujer",
+            category: "Relojes",
+            price: 85000,
+            stock: 15
+        },
+        {
+            name: "Gorra",
+            description: "Gorra de béisbol en algodón",
+            category: "Accesorios",
+            price: 30000,
+            stock: 80
+        }
+    ]
+)
+  
