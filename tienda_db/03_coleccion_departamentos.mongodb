@@ -1,0 +1,78 @@
+use("tienda")
+
+db.departamentos.insertMany(
+    [
+        {
+            nombre: 'Fggertr',
+            capital: 'Leticia',
+            superficie: 10665,
+            numero_de_municipios: 2
+        },
+        {
+            nombre: 'Antioquia',
+            capital: 'Medellin',
+            superficie: 63612,
+            numero_de_municipios: 125
+        },
+        {
+            nombre: 'Arauca',
+            capital: 'Arauca',
+            superficie: 23818,
+            numero_de_municipios: 7
+        },
+        {
+            nombre: 'Atlantico',
+            capital: 'Barranquilla',
+            superficie: 3019,
+            numero_de_municipios: 23
+        },
+        {
+            nombre: 'Bolivar',
+            capital: 'Cartagena de indias',
+            superficie: 25978,
+            numero_de_municipios: 45
+        },
+        {
+            nombre: 'Boyaca',
+            capital: 'Tunja',
+            superficie: 23012,
+            numero_de_municipios: 123
+        },
+        {
+            nombre: 'Caldas',
+            capital: 'Manizalez',
+            superficie: 7888,
+            numero_de_municipios: 27
+        },
+        {
+            nombre: 'Caqueta',
+            capital: 'Florencia',
+            superficie: 88965,
+            numero_de_municipios: 16
+        },
+        {
+            nombre: 'Casanare',
+            capital: 'Yopal',
+            superficie: 44490,
+            numero_de_municipios: 19
+        },
+        {
+            nombre: 'Cauca',
+            capital: 'Popayan',
+            superficie: 29308,
+            numero_de_municipios: 41
+        },
+        {
+            nombre: 'Cesar',
+            capital: 'Valledupar',
+            superficie: 22905,
+            numero_de_municipios: 25
+        },
+        {
+            nombre: 'Tolima',
+            capital: 'Ibague',
+            superficie: 23562,
+            numero_de_municipios: 47
+        }
+    ]
+)

@@ -1,0 +1,56 @@
+db.departamentos.updateOne(
+    {nombre: 'Fggertr'},
+    {
+        $set: {
+            nombre: 'Amazonas'
+        }
+    }
+    )
+    
+// Igualdad
+db.departamentos.find({nombre: 'Amazonas'})
+
+// Menor que
+db.departamentos.find({superficie: {$lt: 40000}})
+
+// Menor o igual que
+db.departamentos.find({superficie: {$lte: 22905}})
+
+// Mayor que
+db.usuarios.find({birth_date: {$gt: new Date("2000-01-01")}})
+
+// Mayor o igual que
+db.productos.find({price: {$gte: 95000}})
+
+// No es igual
+db.usuarios.find({user_type: {$ne: 'cliente'}})
+
+// AND
+db.usuarios.find({$and: [{user_type: 'cliente'}, {phone: '3105551212'}]})
+
+// OR
+use("tienda")
+db.productos.find(
+    {
+        $or: [
+            {price: {$gt: 70000}},
+            {stock: {$lt: 50}}
+        ]
+    }
+)
+
+// AND + OR
+use("tienda")
+db.productos.find(
+    {
+        $and: [
+            {
+                $or: [
+                    {category: 'Bolsos'},
+                    {category: 'Zapatos'}
+                ]
+            },
+            {stock: {$gt: 10}}
+        ]
+    }
+)
