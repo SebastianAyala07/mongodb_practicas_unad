@@ -1,0 +1,66 @@
+use("amazon_prime_video")
+
+db.usuarios.insertMany(
+    [
+        {
+            "_id": ObjectId("6189d4b4f40c2b2a7b8c76c3"),
+            "nombre": "Juan",
+            "apellido": "García",
+            "edad": 30,
+            "correo": "juan.garcia@gmail.com",
+            "contraseña": "$2a$10$go6IFc98.1NleASZxODrP.0MFwG0MFXB13e/ABXSKMggsfry3qZva",
+            "peliculas_favoritas": [
+                "The Shawshank Redemption",
+                "The Godfather"
+            ]
+        },
+        {
+            "_id": ObjectId("6189d4c5f40c2b2a7b8c76c4"),
+            "nombre": "María",
+            "apellido": "Sánchez",
+            "edad": 25,
+            "correo": "maria.sanchez@gmail.com",
+            "contraseña": "$2a$10$BtfVsvrjKvZb/0ZmdM3q7uslmxFtNruj8XN9Q2AGnRfR.Gv0d2ZsG",
+            "peliculas_favoritas": [
+                "The Dark Knight",
+                "The Lord of the Rings"
+            ]
+        },
+        {
+            "_id": ObjectId("6189d4d3f40c2b2a7b8c76c5"),
+            "nombre": "Carlos",
+            "apellido": "Pérez",
+            "edad": 28,
+            "correo": "carlos.perez@gmail.com",
+            "contraseña": "$2a$10$r4j4LEcdhJ0GfvSaxS3LPea0fLvv0t.TN4i4pX8dzbSTg0vUCyLSO",
+            "peliculas_favoritas": [
+                "The Matrix",
+                "Inception"
+            ]
+        },
+        {
+            "_id": ObjectId("6189d4e3f40c2b2a7b8c76c6"),
+            "nombre": "Ana",
+            "apellido": "Martínez",
+            "edad": 35,
+            "correo": "ana.martinez@gmail.com",
+            "contraseña": "$2a$10$hjKtzkJb2OgzBteZiYmKj.UwrThE/g9p1unD6KIMRMp77eU6zBeDS",
+            "peliculas_favoritas": [
+                "Forrest Gump",
+                "Schindler's List"
+            ]
+        },
+        {
+            "_id": ObjectId("6189d4f2f40c2b2a7b8c76c7"),
+            "nombre": "Pedro",
+            "apellido": "López",
+            "edad": 40,
+            "correo": "pedro.lopez@gmail.com",
+            "contraseña": "$2a$10$vCUByMVlLl2XsmJjK25y2uyNzSUEJ3HjvG0zh/4tY4p4/7W8SLvZG",
+            "peliculas_favoritas": [
+                "Pulp Fiction",
+                "The Silence of the Lambs"
+            ]
+        }
+    ]
+)

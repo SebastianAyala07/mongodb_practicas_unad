@@ -1,0 +1,103 @@
+use("amazon_prime_video")
+
+db.peliculas.insertMany(
+    [
+        {
+            "titulo": "La casa de las flores",
+            "director": "Manolo Caro",
+            "año": 2018,
+            "genero": "Comedia",
+            "duracion": 3,
+            "actores": [
+                "Cecilia Suárez",
+                "Verónica Castro",
+                "Aislinn Derbez",
+                "Darío Yazbek Bernal"
+            ]
+        },
+        {
+            "titulo": "Roma",
+            "director": "Alfonso Cuarón",
+            "año": 2018,
+            "genero": "Drama",
+            "duracion": 135,
+            "actores": [
+                "Yalitza Aparicio",
+                "Marina de Tavira",
+                "Diego Cortina Autrey"
+            ]
+        },
+        {
+            "titulo": "El Laberinto del Fauno",
+            "director": "Guillermo del Toro",
+            "año": 2006,
+            "genero": "Fantasía/Drama",
+            "duracion": 118,
+            "actores": [
+                "Ivana Baquero",
+                "Sergi López",
+                "Maribel Verdú"
+            ]
+        },
+        {
+            "titulo": "Toc Toc",
+            "director": "Vicente Villanueva",
+            "año": 2017,
+            "genero": "Comedia",
+            "duracion": 91,
+            "actores": [
+                "Paco León",
+                "Rossy de Palma",
+                "Alexandra Jiménez"
+            ]
+        },
+        {
+            "titulo": "La piel que habito",
+            "director": "Pedro Almodóvar",
+            "año": 2011,
+            "genero": "Drama",
+            "duracion": 120,
+            "actores": [
+                "Antonio Banderas",
+                "Elena Anaya",
+                "Marisa Paredes"
+            ]
+        },
+        {
+            "titulo": "Todo sobre mi madre",
+            "director": "Pedro Almodóvar",
+            "año": 1999,
+            "genero": "Drama",
+            "duracion": 101,
+            "actores": [
+                "Cecilia Roth",
+                "Marisa Paredes",
+                "Penélope Cruz"
+            ]
+        },
+        {
+            "titulo": "Nueve Reinas",
+            "director": "Fabián Bielinsky",
+            "año": 2000,
+            "genero": "Crimen/Drama",
+            "duracion": 115,
+            "actores": [
+                "Ricardo Darín",
+                "Gastón Pauls",
+                "Leticia Brédice"
+            ]
+        },
+        {
+            "titulo": "Relatos Salvajes",
+            "director": "Damián Szifrón",
+            "año": 2014,
+            "genero": "Comedia/Drama",
+            "duracion": 122,
+            "actores": [
+                "Ricardo Darín",
+                "Oscar Martínez",
+                "Leonardo Sbaraglia"
+            ]
+        }
+    ]
+)

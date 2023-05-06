@@ -1,0 +1,9 @@
+use("tienda")
+
+// db.departamentos.deleteOne({_id: ObjectId('64507c6118907b633383f71a')})
+
+// db.departamentos.find()
+
+db.departamentos.deleteMany({numero_de_municipios: {$gte: 10}})
+
+db.departamentos.find()
